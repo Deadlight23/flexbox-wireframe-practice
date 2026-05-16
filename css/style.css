@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(189, 186, 186);
+}
+.header {
+display: flex;
+border: 1rem;
+flex-direction: column;
+background-color: rgb(147, 5, 57);
+padding: 1rem;
+
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumspringgreen;
+}
+.article {
+    margin: 1rem;
+    background-color: rgb(255, 0, 72);
+    font-size: 25px;
+    padding: 1rem
+}
+
+.aside {
+    background-color: rgb(56, 56, 141);
+}
+
+.footer {
+    background-color: orangered;
+}
+p {
+    color: white;
+    font-size: 40px;
+}
+
+div {
+    border-radius: 1rem;
+    margin-left: 30px;
+    margin-right: 30px;
+}
